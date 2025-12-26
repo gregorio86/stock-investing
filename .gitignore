@@ -1,0 +1,25 @@
+.env
+*.log
+*.db
+data/*
+!data/.gitkeep
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 테스트 DB
+stock_investing.db
